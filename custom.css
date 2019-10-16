@@ -45,6 +45,11 @@ h5 {
     color: red;
 }
 
+.tile {
+    height: 53;
+    width: 44;
+}
+
 .cover-container {
   max-width: 42em;
 }

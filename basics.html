@@ -17,13 +17,28 @@
         <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
             <header class="masthead mb-auto">
                 <div class="inner">
-                    <h3 class="masthead-brand"><a href="index.html">Mahjong</a></h3>
-                    <nav class="nav nav-masthead justify-content-center">
-                        <a class="nav-link active" href="basics.html">Basics</a>
-                        <a class="nav-link" href="scoring.html">Basic Scoring</a>
-                        <a class="nav-link" href="specialhands.html">Special Hands</a>
-                        <a class="nav-link" href="payment.html">Payment</a>
-                    </nav>
+                        <nav class="navbar nav-masthead navbar-expand-lg navbar-dark">
+                                <a class="navbar-brand" href="index.html">Mahjong</a>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="basics.html">Tiles & Sets <span class="sr-only">(current)</span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="scoring.html">Scoring System</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="specialhands.html">Special Hands</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="payment.html">Payment</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
                 </div>
             </header>
                   
@@ -67,8 +82,10 @@
 
                 </div>
 
+                <div class="row mt-5"></div>
+
                 <div>
-                    <h1>Sets</h1>
+                    <h1>Sets / Melds</h1>
                     <div class="table-responsive">
                         <table class="table table-striped table-sm">
                             <tr data-toggle="tooltip" title="Players can CHOW from the player on their LEFT IFF they are already holding 2/3 of the needed tiles for the set">
