@@ -49,6 +49,10 @@ h5 {
   max-width: 42em;
 }
 
+.tooltip {
+    pointer-events: none;
+  }
+
 
 /*** Header ***/
 .masthead {

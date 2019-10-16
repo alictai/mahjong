@@ -28,11 +28,46 @@
             </header>
                   
             <main role="main" class="inner cover">
-                <h1>Tiles</h1>
-                
-                <h1>Sets</h1>
+                <div>
+                    <h1>Tiles</h1>
+
+                    <h3>Suits</h3>
+                    <h5>Characters</h5>
+                    <p>Also known as numbers, [ten] thousands, or crack</p>
+
+                    <h5>Bamboo</h5>
+                    <p>Also known as sticks, or bam</p>
+
+                    <h5>Dots</h5>
+                    <p>Also known as stones, wheels, circles, or cookies</p>
+                    
+                    <h3>Honor Tiles</h3>
+                    <h5>Winds</h5>
+                    <h5>Dragons</h5>
+
+
+                </div>
+
+                <div>
+                    <h1>Sets</h1>
+                    <div class="table-responsive">
+                        <table class="table table-striped table-sm">
+                            <tr data-toggle="tooltip" title="Players can CHOW from the player on their LEFT IFF they are already holding 2/3 of the needed tiles for the set">
+                                <td>CHOW</td>
+                                <td>3 tiles, same suit, consecutive numbers</td>
+                            </tr>
+                            <tr data-toggle="tooltip" title="Players can PONG from any player IFF they are already holding 2/3 of the needed tiles for the set">
+                                <td>PONG</td>
+                                <td>3 tiles, same suit, same numbers</td>
+                            </tr>
+                            <tr data-toggle="tooltip" title="Players can KONG from any player IFF they are already holding 3/4 of the needed tiles for the set">
+                                <td>KONG</td>
+                                <td>4 tiles, same suit, same numbers</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
             </main>
-            
 
             <footer class="mastfoot mt-auto">
                 <div class="inner">
@@ -44,5 +79,11 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <!-- Initialize Tooltips -->
+        <script>
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip()
+            });
+        </script>
     </body>
 </html>
