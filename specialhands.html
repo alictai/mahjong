@@ -1,144 +1,134 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="custom.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-        <title>Mahjong</title>
-    </head>
-    <body class="text-center">
-        <div class="cover-container d-flex w-100 p-3 mx-auto flex-column">
-            <header class="masthead mb-auto">
-                <div class="inner">
-                        <nav class="navbar nav-masthead navbar-expand-lg navbar-dark">
-                                <a class="navbar-brand" href="#">Mahjong</a>
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-                                <div class="collapse navbar-collapse" id="navbarNav">
-                                    <ul class="navbar-nav">
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="basics.html">Tiles & Sets <span class="sr-only">(current)</span></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="scoring.html">Scoring System</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link active" href="specialhands.html">Special Hands</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="payment.html">Payment</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </nav>
-                </div>
-            </header>
-                  
-                <h1>Special Hands</h1>
-                <p>In addition to the scoring system, there are also the following special hands. These are difficult to compose, but rewards the player with the maximum payout.</p>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="custom.css" />
 
-                <div class="container">
-                    <div class="row">
-                        <h3 id="hiddentreasure">Hidden Treasure</h3>
+    <title>Mahjong</title>
+</head>
+
+<body class="text-center">
+    <div class="cover-container d-flex w-100 p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+            <div class="inner">
+                <nav class="navbar nav-masthead navbar-expand-lg navbar-dark">
+                    <a class="navbar-brand" href="#">🀄Mahjong</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="basics.html">Tiles & Sets <span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="scoring.html">Scoring System</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="specialhands.html">Special Hands</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="payment.html">Payment</a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="row">
-                        <p>Four Pongs, any pair, all concealed, and won by self-draw</p>
-                    </div>
-                    <div class="row">
-                            <div class="col-sm-6">
-                                <div class="row">
-                                    <div class="col-4">
-                                        <img class="tile" src="img/tiles/winds/east.png" alt="east"/>
-                                        <img class="tile" src="img/tiles/winds/east.png" alt="east"/>
-                                        <img class="tile" src="img/tiles/winds/east.png" alt="east"/>
-                                        <p>Pong</p>
-                                    </div>
-                                    <div class="col-4">
-                                        <img class="tile" src="img/tiles/winds/east.png" alt="east"/>
-                                        <img class="tile" src="img/tiles/winds/east.png" alt="east"/>
-                                        <img class="tile" src="img/tiles/winds/east.png" alt="east"/>
-                                        <p>Pong</p>
-                                    </div>
-                                    <div class="col-4">
-                                        <img class="tile" src="img/tiles/winds/east.png" alt="east"/>
-                                        <img class="tile" src="img/tiles/winds/east.png" alt="east"/>
-                                        <img class="tile" src="img/tiles/winds/east.png" alt="east"/>
-                                        <p>Pong</p>
-                                    </div>
-                                </div>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <h1>Special Hands</h1>
+            <p>In addition to the scoring system, there are also the following special hands. These are difficult to
+                compose, but rewards the player with the maximum payout.</p>
+
+            <h3 id="hiddentreasure">Hidden Treasure</h3>
+            <p>Four Pongs, any pair, all concealed, and won by self-draw</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="row">
+                            <div class="col-4">
+                                <img class="tile" src="img/tiles/winds/east.png" alt="east" />
+                                <img class="tile" src="img/tiles/winds/east.png" alt="east" />
+                                <img class="tile" src="img/tiles/winds/east.png" alt="east" />
+                                <p>Pong</p>
                             </div>
-                            <p> </p>
-                            <div class="col-sm-6">
-                                <div class="row">
-                                    <div class="col-4">
-                                        <img class="tile" src="img/tiles/winds/east.png" alt="east"/>
-                                        <img class="tile" src="img/tiles/winds/east.png" alt="east"/>
-                                        <img class="tile" src="img/tiles/winds/east.png" alt="east"/>
-                                        <p>Pong</p>
-                                    </div>
-                                    <div class="col-4">
-                                        <img class="tile" src="img/tiles/winds/east.png" alt="east"/>
-                                        <img class="tile" src="img/tiles/winds/east.png" alt="east"/>
-                                        <p>Pair</p>
-                                    </div>
-                                    <div class="col-4"></div>
-                                </div>
+                            <div class="col-4">
+                                <img class="tile" src="img/tiles/winds/east.png" alt="east" />
+                                <img class="tile" src="img/tiles/winds/east.png" alt="east" />
+                                <img class="tile" src="img/tiles/winds/east.png" alt="east" />
+                                <p>Pong</p>
                             </div>
+                            <div class="col-4">
+                                <img class="tile" src="img/tiles/winds/east.png" alt="east" />
+                                <img class="tile" src="img/tiles/winds/east.png" alt="east" />
+                                <img class="tile" src="img/tiles/winds/east.png" alt="east" />
+                                <p>Pong</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="row mt-2"></div>
-                    <div class="row">
-                        <h3 id="threegreatscholars">Three Great Scholars</h3>
-                    </div>
-                    <div class="row">
-                        <h3 id="allhonors">All Honors</h3>
-                    </div>
-                    <div class="row">
-                        <h3 id="allterminals">All Terminals</h3>
-                    </div>
-                    <div class="row">
-                        <h3 id="ninegates">Nine Gates</h3>
-                    </div>
-                    <div class="row">
-                        <h3 id="thirteenorphans">Thirteen Orphans</h3>
-                    </div>
-                    <div class="row">
-                        <h3 id="allkongs">All Kongs</h3>
-                    </div>
-                    <div class="row">
-                        <h3 id="jadedragon">Jade Dragon</h3>
-                    </div>
-                    <div class="row">
-                        <h3 id="rubydragon">Ruby Dragon</h3>
-                    </div>
-                    <div class="row">
-                        <h3 id="pearldragon">Pearl Dragon</h3>
-                    </div>
-                    <div class="row">
-                        <h3 id="heavenlyhands">Heavenly Hands</h3>
-                    </div>
-                    <div class="row">
-                        <h3 id="earthlyhands">Earthly Hands</h3>
+                    <p> </p>
+                    <div class="col-sm-6">
+                        <div class="row">
+                            <div class="col-4">
+                                <img class="tile" src="img/tiles/winds/east.png" alt="east" />
+                                <img class="tile" src="img/tiles/winds/east.png" alt="east" />
+                                <img class="tile" src="img/tiles/winds/east.png" alt="east" />
+                                <p>Pong</p>
+                            </div>
+                            <div class="col-4">
+                                <img class="tile" src="img/tiles/winds/east.png" alt="east" />
+                                <img class="tile" src="img/tiles/winds/east.png" alt="east" />
+                                <p>Pair</p>
+                            </div>
+                            <div class="col-4"></div>
+                        </div>
                     </div>
                 </div>
-            
 
-            <footer class="mastfoot mt-auto">
-                <div class="inner">
-                    <p>House rules for Mahjong, by <a href="https://twitter.com/alictai">@alictai</a>.</p>
-                </div>
-            </footer>
+                <h3 id="threegreatscholars">Three Great Scholars</h3>
+                <h3 id="allhonors">All Honors</h3>
+                <h3 id="allterminals">All Terminals</h3>
+                <h3 id="ninegates">Nine Gates</h3>
+                <h3 id="thirteenorphans">Thirteen Orphans</h3>
+                <h3 id="allkongs">All Kongs</h3>
+                <h3 id="jadedragon">Jade Dragon</h3>
+                <h3 id="rubydragon">Ruby Dragon</h3>
+                <h3 id="pearldragon">Pearl Dragon</h3>
+                <h3 id="heavenlyhands">Heavenly Hands</h3>
+                <h3 id="earthlyhands">Earthly Hands</h3>
 
-        <!-- JavaScript -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    </body>
+            </div>
+        </main>
+
+        <footer class="mastfoot mt-auto">
+            <div class="inner">
+                <p>House rules for Mahjong, by <a href="https://twitter.com/alictai">@alictai</a>.</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
