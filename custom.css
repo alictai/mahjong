@@ -42,7 +42,13 @@ body {
 }
 
 h5 {
-    color: red;
+    color: green;
+}
+
+hr {
+    background-color:green;
+    color: green;
+    border-color:green; 
 }
 
 .tile {
